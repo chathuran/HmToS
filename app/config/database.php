@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'h2c',
-			'username'  => 'root',
-			'password'  => '1234',
+			'host'      => '$OPENSHIFT_MYSQL_DB_HOST:$OPENSHIFT_MYSQL_DB_PORT',
+			'database'  => 'hmtos',
+			'username'  => 'admin1ulBYqT',
+			'password'  => 'HVwJDFrZPYtN',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
